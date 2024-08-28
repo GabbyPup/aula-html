@@ -84,6 +84,7 @@
 .topbar {
     padding: 20px;
     border-radius: 230px 100px;
+    background: #1A4870;
 }
 
 .topbar .top-info {
@@ -92,6 +93,7 @@
     letter-spacing: 1px;
     display: flex;
     align-items: center;
+
 }
 
 .topbar .top-link {
@@ -107,12 +109,12 @@
 }
 
 .topbar .top-link a small:hover {
-    color: var(--bs-secondary) !important;
+    color: #5B99C2 !important;
     transition: 0.5s;
 }
 
 .topbar .top-link a small:hover i {
-    color: var(--bs-primary) !important;
+    color: #5B99C2 !important;
 }
 /*** Topbar End ***/
 
@@ -132,7 +134,7 @@
 .navbar .navbar-nav .nav-link.active,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: #5B99C2;
 }
 
 .navbar .dropdown-toggle::after {
@@ -158,8 +160,8 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-secondary);
-    color: var(--bs-primary);
+    background: #5B99C2;
+    color: var(--bs-white);
 }
 
 .navbar .nav-item:hover .dropdown-menu {
