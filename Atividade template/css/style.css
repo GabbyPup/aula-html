@@ -187,8 +187,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1)), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fzenidees.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fsalon-cosy-cheminee-pouf.jpeg&f=1&nofb=1&ipt=9386e6a9c6ad89cdcda494ecd57d894b3e26640761d65a1855949c8b59ead3e8&ipo=images);
-    background-blend-mode: soft-light;
+    background: linear-gradient(rgba(255, 255, 255, 0.805), rgba(255, 253, 250, 0.044)), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fzenidees.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fsalon-cosy-cheminee-pouf.jpeg&f=1&nofb=1&ipt=9386e6a9c6ad89cdcda494ecd57d894b3e26640761d65a1855949c8b59ead3e8&ipo=images);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
