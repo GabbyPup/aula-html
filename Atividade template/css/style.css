@@ -24,6 +24,8 @@
     justify-content: center;
     transition: 0.5s;
     z-index: 99;
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
 }
 /*** Spinner End ***/
 
@@ -65,12 +67,13 @@
     font-weight: normal;
 }
 
-.btn.border-secondary {
+.btn.border {
     transition: 0.5s;
+    background: #1A4870 !important;
 }
 
-.btn.border-secondary:hover {
-    background: var(--bs-secondary) !important;
+.btn.border:hover {
+    background: #5B99C2 !important;
     color: var(--bs-white) !important;
 }
 
@@ -173,14 +176,19 @@
     opacity: 1;
 }
 
+.btn-search {
+    color: #1A4870;
+}
+
 #searchModal .modal-content {
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, 0.8);
 }
 /*** Navbar End ***/
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1)), url(../img/hero-img.jpg);
+    background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1)), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fzenidees.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fsalon-cosy-cheminee-pouf.jpeg&f=1&nofb=1&ipt=9386e6a9c6ad89cdcda494ecd57d894b3e26640761d65a1855949c8b59ead3e8&ipo=images);
+    background-blend-mode: soft-light;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +204,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 25px;
-    background: linear-gradient(rgba(255, 181, 36, 0.7), rgba(255, 181, 36, 0.7));
+    background: linear-gradient(rgba(36, 65, 255, 0.7), rgba(107, 225, 255, 0.7));
 }
 
 .carousel-control-next,
