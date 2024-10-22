@@ -1,0 +1,21 @@
+<script>
+    const numbers = [];
+    let prime = true;
+
+    for(i=0;i<10;i++){
+        numbers[i] = Math.random*100;
+    }
+
+    for(i=0;i<numbers.length;i++){
+        for(j=2;j<i;j++){
+            if(numbers[i] % i == 0){
+                prime = false;
+            }
+        }
+
+    if(prime == true){
+        console.log(numbers[i]);
+    }
+    prime = true;
+    }
+</script>
