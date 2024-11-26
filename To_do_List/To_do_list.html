@@ -3,22 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
 
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    
-            <link href="To_do_list.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link href="To_do_list.css" rel="stylesheet">
     <title>To do list IFPR</title>
 </head>
+
+<header class="navbar">
+    <img class="IFPR-Logo" src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" alt="Logo do IFPR">
+        <h1 class="navTitle flex-lg-wrap">To do list IFPR</h1>
+        <input class="input-boxy" type="text" id="input-box" placeholder="Search task"><button style="font-size: 24px" class="search-button"></button>
+</header>
 <body>
-    <div class="Topbar">
-        <img class="IFPR-Logo" src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" alt="Logo do IFPR">
-        <h1>To do list IFPR</h1>
+
+    <div class="container">
+        <div class="tasks">
+            <h2>Tarefas <i class="fa fa-lightbulb"></i></h2>
+            <div class="tasksbar">
+                <input type="text" id="input-box" placeholder="Tarefa">
+                <button>Adicionar</button>
+            </div>
+            <ul class="list-container">
+                <li>Tarefa Andamento</li>
+                <li>Tarefa Con</li>
+                <li>Tarefa 1</li>
+            </ul>
+        </div>
     </div>
+
     
-    
-</body>
+
+    <div class="Topbar">
+        
+    </div>
+    </body>
 </html>

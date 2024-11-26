@@ -1,13 +1,64 @@
-div.Topbar {
-    align-items: center;
-    s
-}
-
-div.Topbar h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+header.navbar {
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding-inline: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
 }
 
 img.IFPR-Logo {
-    height: 100px;
+    width: 100px;
+    padding-right: 5%;
+
+}
+
+h1.navTitle{
+    size: 400px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: fantasy;
+    padding-right: 5%;
+}
+
+input.input-boxy{
+    padding: 5px;
+    height: 50px;
+    width: auto;
+}
+
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F03%2FCute-Cats-Photo-wallpaper-HD.jpg&f=1&nofb=1&ipt=241feb8328255c798dc7d92050a2f9eb2d630b531e128ff0c5bf82443035266b&ipo=images);
+    background-size: cover;
+}
+
+.tasks{
+    width: 100%;
+    max-width: 540px;
+    background-color: aliceblue;
+    margin: 10px auto 20px;
+    border-radius: 30px;
+    align-items: center;
+    padding: 50px;
+}
+
+.tasks h2{
+    text-align: center;
+}
+
+.tasks input{
+    width: 85%;
+    border-color: green;
+    border-radius: 30px;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: large;
+    padding: 12px;
+    user-select: none;
+    cursor: pointer;
 
 }
