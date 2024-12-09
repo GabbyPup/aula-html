@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
     <link href="To_do_list.css" rel="stylesheet">
     <title>To do list IFPR</title>
 </head>
@@ -13,7 +11,6 @@
 <header class="navbar">
     <img class="IFPR-Logo" src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" alt="Logo do IFPR">
         <h1 class="navTitle flex-lg-wrap">To do list IFPR</h1>
-        <input class="input-boxy" type="text" id="input-box" placeholder="Search task"><button style="font-size: 24px" class="search-button"></button>
 </header>
 <body>
 
@@ -22,12 +19,17 @@
             <h2>Tarefas <i class="fa fa-lightbulb"></i></h2>
             <div class="tasksbar">
                 <input type="text" id="input-box" placeholder="Tarefa">
-                <button>Adicionar</button>
+                <select name="priority" id="task-priority">
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+                <button id="AddUpdateClick" onclick="CreateToDoItems()">Adicionar</button>
             </div>
+            
             <ul class="list-container">
-                <li>Tarefa Andamento</li>
-                <li>Tarefa Con</li>
-                <li>Tarefa 1</li>
+                <h5 id="Alert"></h5>
+                <ul id="list-items" class="list-items"></ul>
             </ul>
         </div>
     </div>
@@ -37,5 +39,8 @@
     <div class="Topbar">
         
     </div>
+    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script type="text/javascript" src="To_do_list.js"></script>
     </body>
 </html>
